@@ -1,0 +1,77 @@
+#miBoton {
+    position: absolute;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    color: #184e77;
+}
+
+.boton, .raizCuadrada {
+    background: #ffffff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(24, 78, 119, 0.15);
+    width: 320px;
+    text-align: center;
+    
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #168aad;
+}
+
+h3#contador {
+    font-size: 2rem;
+    margin: 10px 0 20px 0;
+    color: #1a759f;
+}
+
+button {
+    background-color: #52b69a;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #34a0a4;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px 14px;
+    border: 2px solid #b5e48c;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    outline-color: #168aad;
+    transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus {
+    border-color: #168aad;
+}
+
+#resultado {
+    margin-top: 15px;
+    font-weight: 600;
+    color: #76c893;
+    min-height: 24px;
+}
+.raizCuadrada {
+    padding-right: 50px; /* en lugar de solo 30px */
+}
